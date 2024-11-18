@@ -1,5 +1,7 @@
 # Java Lab Exp-8 & Exp-9
 
+![Java Logo](https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg)
+
 This repository contains the source code for **Java Lab Experiment 8 and Experiment 9**.
 
 ## Instructions to Clone and Open Both Projects in VS Code
@@ -19,7 +21,7 @@ Step 2: Open the Project in VS Code
 Launch Visual Studio Code.
 Go to File -> Open Folder, and select the cloned repository folder.
 Step 3: Install Maven
-Download Maven from https://maven.apache.org/download.cgi this link.
+Download Maven from this link.
 Extract the downloaded ZIP file.
 Add the Maven bin directory to your system's environment variables:
 Go to System Properties -> Environment Variables.
