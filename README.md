@@ -36,13 +36,24 @@ Step 4: Required Extensions for VS Code
 Install the following extensions in VS Code:
 Java Extension Pack
 Spring Boot Extension Pack
-Step 5: Run the Project
+Step 5: Configure Database for Exp-9
+Navigate to the Exp9\src\main\resources folder.
+Open the application.properties file and ensure the following configuration is set:
+
+
+spring.datasource.url=jdbc:mysql://localhost:3306/exp9
+spring.datasource.username=root
+spring.datasource.password=admin
+spring.jpa.hibernate.ddl-auto=update
+
+Important: Change the spring.datasource.username and spring.datasource.password to match your MySQL credentials. Ensure that a database named exp9 is created in your MySQL instance.
+Step 6: Run the Project
 To start the projects, open the terminal and navigate to each project folder. Run the following command:
 
 
 mvn spring-boot:run
 
-Step 6: Access the Applications
+Step 7: Access the Applications
 After running the command, open your browser and access the projects using the following URLs:
 Experiment 8: http://localhost:9696/
 Experiment 10: http://localhost:8080/
