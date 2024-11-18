@@ -21,7 +21,7 @@ Step 2: Open the Project in VS Code
 Launch Visual Studio Code.
 Go to File -> Open Folder, and select the cloned repository folder.
 Step 3: Install Maven
-Download Maven from this link.
+Download Maven from https://maven.apache.org/download.cgi this link.
 Extract the downloaded ZIP file.
 Add the Maven bin directory to your system's environment variables:
 Go to System Properties -> Environment Variables.
