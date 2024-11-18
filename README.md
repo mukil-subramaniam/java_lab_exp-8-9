@@ -54,4 +54,4 @@ Step 7: Access the Applications
 
 After running the command, open your browser and access the projects using the following URLs:
 Experiment 8: http://localhost:9696/
-Experiment 10: http://localhost:8080/
+Experiment 9: http://localhost:8080/
